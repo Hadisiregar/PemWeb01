@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form pemesanan Pizza</title>
+</head>
+<body>
+	<table align="center" border="1">
+		<tr>
+			<td>
+				<form>
+					<b>Black Goose Bistro | Pizza-on-Demand</b>
+					<p>
+						Our 12" wood-fired pizzas are available for delivery
+						build Your <br> custom pizza we'lll delivery it
+						within an hour
+					</p>
+					Your information
+					<br>
+					<label for="id_name"> Name :</label>
+                    <input type="text" name="customname" id="id_name">
+                    <br>
+                    <label for="id_address">Adress :</label>
+                    <input type="text" name="address" id="id_address">
+                    <br>
+                    <label for="id telephone">Telephone Number :</label>
+                    <input type="tel" name="telephone" id="id_telephone">
+                    <br>
+                    <label for="id_email">Email :</label>
+                    <input type="email" name="email" id="id_email">
+                    <br>
+                    Delivery Instructions: <br>
+                    <textarea 
+                    name="instruction" 
+                    id="instructions_" 
+                    cols="30"
+                    rows="10" 
+                    placeholder="No more than 400 characters long"
+                    ></textarea>
+                    <br> <br>
+                    <b> Design Your Dream Pizza</b> <br>
+                    Pizza specs
+                    <p> Crust (Choose one) :</p>
+                    <ul type="none">
+                        <li><input type="radio" name="crust" value="white" checked>Classic white</li>
+                        <li><input type="radio" name="crust" value="multigrain">Multigrain</li>
+                        <li><input type="radio" name="crust" value="cheese crust"> Cheese-stuffed crush</li>
+                        <li><input type="radio" name="crust" value="glutan free">Gluten-Free</li>
+                    </ul>
+
+                    <p>Toppings (Choose as any as you want) :</p>
+                    <ul type="none">
+                        <li><input type="checkbox" name="topings[]" value="red sauce" checked>Red Sauce</li>
+                        <li><input type="checkbox" name="topings[]" value="white sauce">White sauce</li>
+                        <li><input type="checkbox" name="topings[]" value="mozzarella">Mozzarella</li>
+                        <li><input type="checkbox" name="topings[]" value="pepperoni">Pepperoni</li>
+                        <li><input type="checkbox" name="topings[]" value="mushrooms">Mushrooms</li>
+                        <li><input type="checkbox" name="topings[]" value="peppers">Peppers</li>
+                        <li><input type="checkbox" name="topings[]" value="anchovies">Anchovies</li>
+                    </ul>
+                    <p>Number</p>
+                    <label for="id_pizza">How many pizzas :</label>
+                    <select name="pizzas" id="id_pizza" size="1">
+                        <option >1</option>
+                        <option >2</option>
+                        <option selected>3</option>
+                        <option >4</option>
+                        <option >5</option>
+                        <option >6</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Bring me a pizza!">
+                    <input type="reset" value="Reset">
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
