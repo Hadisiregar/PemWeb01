@@ -1,0 +1,58 @@
+body {
+    background-color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: blue;
+}
+
+blockquote {
+ background-color: yellow;   
+}
+
+.menu {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.gambar {
+    text-align: center;
+    border-color: black;
+}
+
+.gambar img {
+    width: 20%;
+}
+
+.isi {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#profile {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#berternak {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img {
+    width: 20%;
+}
+
+.promo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
