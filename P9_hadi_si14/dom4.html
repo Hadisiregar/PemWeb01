@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 9.4</title>
+</head>
+<body>
+    <h1>Penjumlahan</h1>
+    <input type="number" id="nomor1" onchange="hitung_jumlah()">
+    <p><b>+</b></p>
+    <input type="number" id="nomor2" onchange="hitung_jumlah()">
+    <p><b>=</b></p>
+    <input type="text" id="hasil">
+
+    <script>
+        function hitung_jumlah() {
+            var nomor1 = parseInt(document.getElementById("nomor1").value);
+            var nomor2 = parseInt(document.getElementById("nomor2").value);
+            var jumlah = (nomor1 + nomor2);
+            document.getElementById("hasil").value = jumlah;
+        }
+    </script>
+</body>
+</html>
